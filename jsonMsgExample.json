@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "order",
+      "confidence": 0.8231945514678956
+    }
+  ],
+  "entities": [
+    {
+      "entity": "food",
+      "location": [ 17, 22 ],
+      "value": "pizza",
+      "confidence": 1
+    }
+  ],
+  "input": {
+    "text": "I'm craving some pizza",
+    "alternate_intents": true
+  },
+  "output": {
+    "generic": [
+      {
+        "response_type": "text",
+        "text": "Sure, I can help place an order"
+      }
+    ],
+    "text": [ "Sure, I can help place an order" ],
+    "nodes_visited": [ "node_1_1562604485312" ],
+    "log_messages": []
+  },
+  "context": {
+    "conversation_id": "afe2dfc1-a73c-4712-993d-ea71996ea4a4",
+    "system": {
+      "initialized": true,
+      "dialog_stack": [ { "dialog_node": "root" } ],
+      "dialog_turn_counter": 1,
+      "dialog_request_counter": 1,
+      "_node_output_map": { "node_1_1562604485312": { "0": [ 0 ] } },
+      "branch_exited": true,
+      "branch_exited_reason": "completed"
+    }
+  }
+}
